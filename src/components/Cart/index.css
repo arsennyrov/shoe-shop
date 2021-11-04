@@ -1,0 +1,62 @@
+.basket-h2 {
+    font-family: Roboto;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.basket-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.cart-header-div {
+    width: 100%;
+}
+
+.cart-list-div {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.cart-hr {
+    width: 410px;
+    border-top: 1px solid #CFCFCF; 
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.total-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 41px;
+    margin-top: 40px;
+}
+
+.total-value {
+    display: flex;
+    flex-direction: column;
+    margin-right: 55px;
+    margin-top: 40px;
+}
+
+.total-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.basket-line {
+    width: 100%;
+}
