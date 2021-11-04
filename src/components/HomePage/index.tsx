@@ -34,6 +34,7 @@ const HomePage: React.FC<AllProps> = ({
 }) => {
   useEffect(() => {
     fetchRequest();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
